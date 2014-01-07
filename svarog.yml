@@ -1,0 +1,6 @@
+# Sample of svarog client settings
+# Copy and rename to: ~/.svarog.yml
+svarog-server:
+  url:    'http://localhost:8888'
+  username:   'user'
+  password:   'password'

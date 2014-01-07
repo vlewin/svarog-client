@@ -1,0 +1,9 @@
+#!/usr/bin/ruby
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
+
+require 'svarog-client'
+options = Svarog::Parser.parse(ARGV)
+
+client = Svarog::Client.new()
+client.notify(options.message, options.sender, options.type)
