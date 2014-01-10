@@ -24,7 +24,7 @@ module Svarog
         option :type do
           short '-t'
           long '--type=Type'
-          desc 'The notification type (e.g. info, alert, success, warning)'
+          desc 'The notification type (e.g. info, alert, success, resolved, warning)'
           default 'alert'
         end
 
